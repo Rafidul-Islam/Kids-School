@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+  /* border:1px solid; */
+}
+body {
+}
+
+/*  */
+/*  */
+/* Header section Styling Starts Here */
+header {
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 7%;
+}
+/* Header brand styling here */
+header nav .brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+header nav .brand img {
+}
+header nav .brand h1 {
+  font-size: 2rem;
+}
+header nav .brand h1 .first-o {
+  color: orange;
+}
+header nav .brand h1 .second-o {
+  color: skyblue;
+}
+/* Header nav link styles here */
+header nav .nav-link {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav .nav-link ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+header nav .nav-link ul li {
+  list-style-type: none;
+}
+.nav-link ul li a {
+  text-decoration: none;
+}
+header nav .nav-link .home {
+  color: orange;
+}
+header nav .nav-link .about {
+  color: #01cfd0;
+}
+header nav .nav-link .facilities {
+  color: #05d4df;
+}
+header nav .nav-link .admission {
+  color: #5d58ef;
+}
+/* Header contact starts here */
+header nav .contact {
+  width: 20%;
+  /* border: 1px solid; */
+  text-align: right;
+}
+header nav .contact .contact-btn {
+  width:80%;
+  background-color: orange;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+}
