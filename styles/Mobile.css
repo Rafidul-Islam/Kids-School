@@ -181,13 +181,59 @@
   /*  */
   /* Banner3 stylling */
   .banner3 {
+    background-image: url("../assets/bg.png"),
+      linear-gradient(0deg, #f9deae, #fff);
+    padding: 0 7%;
   }
-  .banner3 h1 {
+  .banner3 > h1 {
+    font-size: 2.7rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 15% 0 5%;
   }
+  /* banner 3 iamge section styling */
   .banner3 .story-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
   }
   .banner3 .story-div .big-story {
+    display: none;
   }
+  /* Banner 3 regular styling starts here */
   .banner3 .story-div .regular-story {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+  .regular-story .img-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .img-card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  .img-card .img-des {
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    height: 100px;
+  }
+  .img-card .img-des h3 {
+    padding: 17% 5% 10%;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  /* View all button styling */
+  .last-btn-container {
+    padding: 5% 0;
+  }
+  .view-all-btn {
+    display: block;
+    margin: 0 auto;
   }
 }

@@ -249,12 +249,9 @@
     font-size: 2.7rem;
     font-weight: 500;
     text-align: center;
-  }
-  .banner3 h1 {
-    font-size: 2.7rem;
-    font-weight: 500;
     padding: 0 0 5%;
   }
+
   /* banner 3 iamge section styling */
   .banner3 .story-div {
     display: flex;
