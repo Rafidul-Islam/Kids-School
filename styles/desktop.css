@@ -114,7 +114,7 @@
   .banner1-description h1 #vision {
     color: #01acfd;
   }
-  .banner1-description p {
+  .banner1-description > p {
     font-size: 1.2rem;
     padding: 3% 0 0;
     font-weight: 400;
@@ -127,6 +127,7 @@
   }
   .banner1-img img {
     width: 90%;
+    float: right;
   }
   /*  */
   /*  */
@@ -140,5 +141,185 @@
     background-color: #000;
     color: #fff;
     margin-top: 2%;
+  }
+
+  /*  */
+  /*  */
+  /* Banner2 styling starts here */
+  .banner2 {
+    padding: 0% 7%;
+    background-image: url("../assets/bg.png");
+    background-clip: padding-box;
+  }
+  .banner2 h1 {
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: 500;
+    margin-top: 3%;
+  }
+  .banner2 .card-container {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+  }
+  .banner2 .card-container .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  .card h2 {
+    padding: 5% 0 3%;
+  }
+  .card p {
+    text-align: center;
+    padding: 2% 0 5%;
+  }
+  .card a {
+    padding: 5% 0;
+    text-decoration: none;
+  }
+  .card img {
+    padding: 5% 0;
+  }
+  .card1 {
+    background: linear-gradient(#c1e9ff, #fff);
+  }
+  .card1 a {
+    color: #01acfd;
+  }
+  .card2 {
+    background: linear-gradient(#fce9dc, #fff);
+  }
+  .card2 a {
+    color: orange;
+  }
+  .card3 {
+    background: linear-gradient(#e4a9e4, #fff);
+  }
+  .card13 a {
+    color: blueviolet;
+  }
+  /*  */
+  /*  */
+  /* Direction styling */
+  .direction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    padding: 4%;
+    /* border: 1px solid black; */
+  }
+  .direction .left-dir {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: #fff;
+  }
+  .direction .right-dir {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: #fff;
+  }
+
+  /*  */
+  /*  */
+  /* Banner3 stylling */
+  .banner3 {
+    background-image: url("../assets/bg.png"),
+      linear-gradient(0deg, #f9deae, #fff);
+    padding: 0 7%;
+  }
+  .banner3 h1 {
+    font-size: 2.7rem;
+    font-weight: 500;
+    text-align: center;
+  }
+  .banner3 h1 {
+    font-size: 2.7rem;
+    font-weight: 500;
+    padding: 0 0 5%;
+  }
+  /* banner 3 iamge section styling */
+  .banner3 .story-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .banner3 .story-div .big-story {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .banner3 .story-div .big-story img {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+  }
+  .banner3 .story-div .big-story .big-story-des {
+    background-color: #fff;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+  }
+  .big-story-des h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: 10% 5% 5%;
+  }
+  .big-story-des > p {
+    padding: 0 5% 5%;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  /* Banner 3 regular styling starts here */
+  .banner3 .story-div .regular-story {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+  .regular-story .img-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .img-card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  .img-card .img-des {
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+  }
+  .img-card .img-des h3 {
+    padding: 17% 5% 10%;
+    font-size: 1rem;
+  }
+  /* View all button styling */
+  .last-btn-container {
+    padding: 5% 0;
+  }
+  .view-all-btn {
+    display: block;
+    margin: 0 auto;
   }
 }

@@ -72,7 +72,7 @@
     justify-content: center;
     flex-direction: column-reverse;
     padding: 3% 7%;
-    gap:20px;
+    gap: 20px;
   }
   .banner1-description {
     width: 100%;
@@ -82,7 +82,7 @@
     font-weight: 500;
     line-height: 1.01;
     text-align: center;
-
+    padding: 5% 5%;
   }
   .banner1-description h1 #empowering {
     color: orange;
@@ -92,21 +92,102 @@
     color: #01acfd;
   }
   .banner1-description p {
-    font-size: 1.2rem;
-    padding: 3% 0 0;
+    font-size: 1rem;
+    padding: 5% 0 5%;
     font-weight: 400;
     color: #333;
     text-align: center;
   }
   .banner1-description button {
-    display:block;
-    margin:0 auto;
-    margin-top:10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
   }
   .banner1-img {
     width: 100%;
   }
-   .banner1-img img {
+  .banner1-img img {
     width: 100%;
+  }
+  /*  */
+  /*  */
+  /* Banner2 styling starts here */
+  .banner2 {
+    padding: 0% 7%;
+    background-image: url("../assets/bg.png");
+    background-clip: padding-box;
+  }
+  .banner2 h1 {
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: 500;
+    margin-top: 3%;
+  }
+  .banner2 .card-container {
+    margin-top: 5%;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2%;
+    padding: 5% 7% 0;
+  }
+  .banner2 .card-container .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    padding: 5% 5%;
+  }
+  .card h2 {
+    padding: 5% 0 3%;
+  }
+  .card p {
+    text-align: center;
+    padding: 2% 0 5%;
+  }
+  .card a {
+    padding: 5% 0;
+    text-decoration: none;
+  }
+  .card img {
+    padding: 5% 0;
+  }
+  .card1 {
+    background: linear-gradient(#c1e9ff, #fff);
+  }
+  .card1 a {
+    color: #01acfd;
+  }
+  .card2 {
+    background: linear-gradient(#fce9dc, #fff);
+  }
+  .card2 a {
+    color: orange;
+  }
+  .card3 {
+    background: linear-gradient(#e4a9e4, #fff);
+  }
+  .card13 a {
+    color: blueviolet;
+  }
+  /*  */
+  /*  */
+  /* Direction styling */
+  .direction {
+    display: none;
+  }
+  /*  */
+  /*  */
+  /* Banner3 stylling */
+  .banner3 {
+  }
+  .banner3 h1 {
+  }
+  .banner3 .story-div {
+  }
+  .banner3 .story-div .big-story {
+  }
+  .banner3 .story-div .regular-story {
   }
 }
