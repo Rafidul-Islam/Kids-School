@@ -1,0 +1,112 @@
+@media screen and (max-width: 576px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+    /* border:1px solid; */
+  }
+  body {
+  }
+  /*  */
+  /*  */
+  /* Header section Styling Starts Here */
+  header {
+    border-bottom: 1px solid rgb(210, 202, 202);
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+  }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 7%;
+  }
+  /* Header brand styling here */
+  header nav .brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header nav .brand img {
+  }
+  header nav .brand h1 {
+    font-size: 2rem;
+  }
+  header nav .brand h1 .first-o {
+    color: orange;
+  }
+  header nav .brand h1 .second-o {
+    color: skyblue;
+  }
+  /* Header nav link styles here */
+  header nav .nav-link {
+    display: none;
+  }
+  /* Header contact starts here */
+  header nav .contact {
+    display: none;
+  }
+  /* Menu bar styling here */
+  .menu-bar {
+    font-size: 2.3rem;
+  }
+  /*  */
+  /*  */
+  /* Shared Button */
+  .primary-btn {
+    padding: 10px 40px;
+    font-weight: 500;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 2%;
+  }
+  /*  */
+  /*  */
+  /* Banner1 styling starts here */
+  .banner1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    padding: 3% 7%;
+    gap:20px;
+  }
+  .banner1-description {
+    width: 100%;
+  }
+  .banner1-description h1 {
+    font-size: 2.8rem;
+    font-weight: 500;
+    line-height: 1.01;
+    text-align: center;
+
+  }
+  .banner1-description h1 #empowering {
+    color: orange;
+    display: block;
+  }
+  .banner1-description h1 #vision {
+    color: #01acfd;
+  }
+  .banner1-description p {
+    font-size: 1.2rem;
+    padding: 3% 0 0;
+    font-weight: 400;
+    color: #333;
+    text-align: center;
+  }
+  .banner1-description button {
+    display:block;
+    margin:0 auto;
+    margin-top:10px;
+  }
+  .banner1-img {
+    width: 100%;
+  }
+   .banner1-img img {
+    width: 100%;
+  }
+}
