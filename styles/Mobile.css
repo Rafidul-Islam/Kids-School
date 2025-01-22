@@ -78,7 +78,7 @@
     width: 100%;
   }
   .banner1-description h1 {
-    font-size: 2.8rem;
+    font-size: 3rem;
     font-weight: 500;
     line-height: 1.01;
     text-align: center;
@@ -185,11 +185,12 @@
       linear-gradient(0deg, #f9deae, #fff);
     padding: 0 7%;
   }
-  .banner3 > h1 {
+  .banner3-heading {
     font-size: 2.7rem;
     font-weight: 500;
     text-align: center;
-    padding: 15% 0 5%;
+    padding: 10% 0 5%;
+    width: 20%;
   }
   /* banner 3 iamge section styling */
   .banner3 .story-div {
@@ -222,11 +223,34 @@
     background-color: #fff;
     border-radius: 0 0 10px 10px;
     height: 100px;
+    position: relative;
   }
   .img-card .img-des h3 {
     padding: 17% 5% 10%;
     font-size: 1rem;
     font-weight: 500;
+  }
+  .img-card .img-des .card-date {
+    position: absolute;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    top: -16%;
+    left: 5%;
+    font-size: 0.9rem;
+  }
+  #color1 {
+    background-color: #b9a9a0;
+  }
+  #color2 {
+    background-color: #699702;
+  }
+  #color3 {
+    background-color: #ebad30;
+  }
+  #color4 {
+    background-color: #9ca2a8;
   }
   /* View all button styling */
   .last-btn-container {
@@ -266,10 +290,6 @@
   }
   /* Footer link Styling  */
   .footer-link {
-    /* display: flex;
-    align-items: center;
-    /* justify-content: center; */
-    /* flex-direction: column; */
   }
   .footer-link .footer-heading h2 {
     color: #fff;
@@ -295,14 +315,13 @@
   }
   /* Social link styling */
   .social-link {
-    /* border: 1px solid black; */
   }
   .social-link h3 {
     color: #fff;
     padding: 10px 0;
     font-size: 1.5rem;
-    font-weight:500;
-    margin-top:20px;
+    font-weight: 500;
+    margin-top: 20px;
   }
   .social-link .icons-container {
     padding: 10px 0;
