@@ -190,7 +190,7 @@
     font-weight: 500;
     text-align: center;
     padding: 10% 0 5%;
-    width:100%;
+    width: 100%;
   }
   /* banner 3 iamge section styling */
   .banner3 .story-div {
@@ -241,7 +241,7 @@
     font-size: 0.9rem;
   }
   #color1 {
-    background-color: #b9a9a0;
+    background-color: #87ac97;
   }
   #color2 {
     background-color: #699702;
@@ -250,7 +250,7 @@
     background-color: #ebad30;
   }
   #color4 {
-    background-color: #9ca2a8;
+    background-color: #90567e;
   }
   /* View all button styling */
   .last-btn-container {
